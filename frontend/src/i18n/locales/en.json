@@ -1,0 +1,73 @@
+{
+  "header": {
+    "title": "Telegram Integration",
+    "subtitle": "Shop #{{id}} · New order notifications"
+  },
+  "status": {
+    "title": "Integration Status",
+    "loading": "Loading...",
+    "notConfigured": "Integration is not configured yet.",
+    "active": "Active",
+    "inactive": "Disabled",
+    "chatId": "chat_id",
+    "lastSent": "Last sent: {{date}}",
+    "sent7d": "Sent (7 days)",
+    "failed7d": "Failed (7 days)"
+  },
+  "connect": {
+    "title": "Connect Bot",
+    "titleUpdate": "Bot Settings",
+    "botToken": "Bot Token",
+    "botTokenHint": "from @BotFather",
+    "botTokenPlaceholder": "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11",
+    "botTokenUpdatePlaceholder": "Leave empty to keep current",
+    "required": "required",
+    "optional": "optional",
+    "chatId": "Chat ID",
+    "chatIdPlaceholder": "987654321",
+    "enabledLabel": "Notifications enabled",
+    "save": "Connect",
+    "update": "Save changes",
+    "saving": "Saving...",
+    "saveSuccess": "Settings saved!",
+    "saveError": "Failed to save"
+  },
+  "hint": {
+    "title": "How to find Chat ID?",
+    "step1": "Send any message to your bot in Telegram.",
+    "step2prefix": "Open in browser:",
+    "step3": "Find <code>message.chat.id</code> in the response — that's your Chat ID.",
+    "step4": "For groups, add the bot to the group and repeat the steps."
+  },
+  "validation": {
+    "required": "Required",
+    "number": "Must be a number",
+    "positive": "Must be greater than zero",
+    "botTokenFormat": "Invalid token format (123456:ABC...)",
+    "chatIdFormat": "Chat ID must be a number"
+  },
+  "error": {
+    "offline": "Server is unavailable. Check your connection.",
+    "badResponse": "Server returned an unexpected response.",
+    "unknown": "Something went wrong. Please try again.",
+    "retry": "Retry"
+  },
+  "order": {
+    "title": "Test: Create Order",
+    "description": "Simulates a new incoming order and sends a Telegram notification.",
+    "number": "Order Number",
+    "numberPlaceholder": "A-1005",
+    "total": "Amount (₽)",
+    "totalPlaceholder": "2490",
+    "customer": "Customer",
+    "customerPlaceholder": "Anna",
+    "submit": "Create Order",
+    "submitting": "Sending...",
+    "created": "Order <strong>#{{number}}</strong> created.",
+    "notify": {
+      "sent": "✓ Sent to Telegram",
+      "failed": "✗ Send failed",
+      "skipped": "— Telegram disabled"
+    }
+  }
+}

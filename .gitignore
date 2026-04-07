@@ -1,0 +1,38 @@
+# Binaries
+bin/
+
+# Generated
+backend/docs/
+
+# Go
+*.exe
+*.test
+*.out
+coverage.out
+coverage.html
+
+# Environment
+.env
+.env.test
+.env.local
+!.env.example
+!.env.test.example
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.pnpm-store/
+
+# Docker
+.docker/
+
+# IDE
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

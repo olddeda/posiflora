@@ -1,0 +1,3 @@
+{
+  "order.notification": "🛍 Новый заказ\n\n📋 Номер: {{.Number}}\n💰 Сумма: {{.Total}} ₽\n👤 Клиент: {{.CustomerName}}"
+}

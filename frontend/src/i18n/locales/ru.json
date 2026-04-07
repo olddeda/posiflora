@@ -1,0 +1,73 @@
+{
+  "header": {
+    "title": "Telegram-интеграция",
+    "subtitle": "Магазин #{{id}} · Уведомления о новых заказах"
+  },
+  "status": {
+    "title": "Статус интеграции",
+    "loading": "Загрузка...",
+    "notConfigured": "Интеграция ещё не настроена.",
+    "active": "Активно",
+    "inactive": "Отключено",
+    "chatId": "chat_id",
+    "lastSent": "Последняя отправка: {{date}}",
+    "sent7d": "Отправлено (7 дней)",
+    "failed7d": "Ошибок (7 дней)"
+  },
+  "connect": {
+    "title": "Подключение бота",
+    "titleUpdate": "Настройки бота",
+    "botToken": "Bot Token",
+    "botTokenHint": "от @BotFather",
+    "botTokenPlaceholder": "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11",
+    "botTokenUpdatePlaceholder": "Оставьте пустым, чтобы не менять",
+    "required": "обязательно",
+    "optional": "опционально",
+    "chatId": "Chat ID",
+    "chatIdPlaceholder": "987654321",
+    "enabledLabel": "Уведомления включены",
+    "save": "Подключить",
+    "update": "Сохранить изменения",
+    "saving": "Сохранение...",
+    "saveSuccess": "Настройки сохранены!",
+    "saveError": "Ошибка сохранения"
+  },
+  "hint": {
+    "title": "Как узнать Chat ID?",
+    "step1": "Напишите любое сообщение своему боту в Telegram.",
+    "step2prefix": "Откройте в браузере:",
+    "step3": "В ответе найдите <code>message.chat.id</code> — это ваш Chat ID.",
+    "step4": "Для групп добавьте бота в группу и выполните те же шаги."
+  },
+  "validation": {
+    "required": "Обязательное поле",
+    "number": "Введите число",
+    "positive": "Должно быть больше нуля",
+    "botTokenFormat": "Неверный формат токена (123456:ABC...)",
+    "chatIdFormat": "Chat ID должен быть числом"
+  },
+  "error": {
+    "offline": "Сервер недоступен. Проверьте соединение.",
+    "badResponse": "Сервер вернул неожиданный ответ.",
+    "unknown": "Что-то пошло не так. Попробуйте позже.",
+    "retry": "Повторить"
+  },
+  "order": {
+    "title": "Тест: создать заказ",
+    "description": "Эмулирует поступление нового заказа и отправляет Telegram-уведомление.",
+    "number": "Номер заказа",
+    "numberPlaceholder": "A-1005",
+    "total": "Сумма (₽)",
+    "totalPlaceholder": "2490",
+    "customer": "Клиент",
+    "customerPlaceholder": "Анна",
+    "submit": "Создать заказ",
+    "submitting": "Отправка...",
+    "created": "Заказ <strong>#{{number}}</strong> создан.",
+    "notify": {
+      "sent": "✓ Отправлено в Telegram",
+      "failed": "✗ Ошибка отправки",
+      "skipped": "— Telegram отключён"
+    }
+  }
+}
